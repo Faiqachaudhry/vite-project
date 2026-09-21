@@ -40,4 +40,6 @@ with:
 path: ./dist
 
 - name: Deploy
+id: deployment
 uses: actions/deploy-pages@v4
+
